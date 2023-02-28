@@ -23,6 +23,7 @@ public class AnnotationExample extends AnnotationExample2{
     public void testCase2(){
         System.out.println("test case 3");
 		System.out.println("Good Morning");
+		System.out.println("Good Afternoon");
     }
 
     @Test(groups = {"smoke"})
