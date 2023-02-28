@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="demo.reporting.ITransAnnonation"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="0" name="E:/Repo/Edso">
+        <classes>
+            <class name="demo.reporting.ReportingExample"/>
+        </classes>
+    </test>
+</suite>
