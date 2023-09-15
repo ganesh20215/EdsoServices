@@ -14,11 +14,6 @@ public class AnnotationExample extends AnnotationExample2{
         System.out.println("Before Method");
     }
 
-    @Test(groups = {"smoke"})
-    public void testCase1(){
-        System.out.println("test case 1");
-    }
-
     @AfterMethod
     public void afterMethodExample(){
         System.out.println("After Method");
