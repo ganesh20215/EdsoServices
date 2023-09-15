@@ -19,16 +19,6 @@ public class AnnotationExample extends AnnotationExample2{
         System.out.println("test case 1");
     }
 
-    @Test
-    public void testCase2(){git 
-        System.out.println("test case 3");
-    }
-
-    @Test(groups = {"smoke"})
-    public void testCase3(){
-        System.out.println("test case 3");
-    }
-
     @AfterMethod
     public void afterMethodExample(){
         System.out.println("After Method");
