@@ -20,10 +20,8 @@ public class AnnotationExample extends AnnotationExample2{
     }
 
     @Test
-    public void testCase2(){
+    public void testCase2(){git 
         System.out.println("test case 3");
-		System.out.println("Good Afternoon");
-        System.out.println("Good Evening");
     }
 
     @Test(groups = {"smoke"})
